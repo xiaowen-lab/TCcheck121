@@ -1,11 +1,32 @@
+# 核心环境
+pip>=25.2
+setuptools>=68.0.0
+wheel>=0.40.0
+
+# Streamlit
+streamlit>=1.29.0
+
+# 科学计算
 numpy
 pandas
+
+# 绘图
 matplotlib
 seaborn
 plotly
-#scikit-learn
+
+# 机器学习（兼容 pickle 模型）
 scikit-learn==1.2.2
 lightgbm
 xgboost
-shap
-streamlit_shap
+
+# 模型序列化
+joblib
+
+# 日志/增强
+rich>=14.0.0
+
+# 可选：Markdown 渲染支持
+markdown-it-py>=4.0.0
+mdurl>=0.1.2
+pygments>=2.19.2
